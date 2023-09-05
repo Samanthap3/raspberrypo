@@ -13,10 +13,9 @@ public class button
         return "PUSH BUTTON";
     }
 
-    public static int generatePoem(/*Poems[] array*/)
+    public static Object generatePoem(/*ArrayList<Object>*/)
     {
-        /*placeholder for correct code*/int sizeOfArray = 0;
-        int key = random.nextInt(/*array.length*/sizeOfArray);
+        int key = random.nextInt(100/*array.length-1*/);
 
         return key;
         //return array[key];
