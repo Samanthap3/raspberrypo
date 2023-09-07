@@ -3,7 +3,6 @@ import java.io.*;
 
 public class Poem {
     static Random random = new Random();
-
     String title,author;
     
 
@@ -19,11 +18,9 @@ public class Poem {
         return "PUSH BUTTON";
     }
 
-    public static Object generatePoem(/*ArrayList<Object>*/)
+    public String generatePoem()
     {
-        int key = random.nextInt(100/*array.length-1*/);
-
-        return key;
-        //return array[key];
+        String display = "TITLE: " + title + "\nAUTHOR: " + author;
+        return display;
     }
 }
