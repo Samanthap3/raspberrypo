@@ -12,7 +12,7 @@ public class Poem {
         String title = choicepoem.nextLine();
         String author = choicepoem.nextLine();
     }
-
+    
     public static String message()
     {
         return "PUSH BUTTON";
