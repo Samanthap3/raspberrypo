@@ -29,6 +29,7 @@ public class Poem
         display = "TITLE: " + poemchosen.title + "\nAUTHOR: " + poemchosen.author;
         return display;
     }
+<<<<<<< HEAD
 
 /** 
     * Creates an array list library of poems 
@@ -47,6 +48,9 @@ public class Poem
     /**
      * tells user to push button
      */
+=======
+    
+>>>>>>> d2942134b122473237a4ebc957c9e8e7f0769a4d
     public static String message()
     {
         return "PUSH BUTTON";
