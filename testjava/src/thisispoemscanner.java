@@ -1,9 +1,9 @@
-public class poemcompile()
+/**public class poemcompile()
 {
     ArrayList<Poem> = library;
-/** 
+ 
     * Creates an array list library of poems 
-    */
+    
     public poemcompiler() throws IOException
     {
         File pfile1 = new File("poem1.txt");
@@ -14,4 +14,4 @@ public class poemcompile()
         library.add(new Poem(pfile2));
         library.add(new Poem(pfile3));
     }
-}
+}*/

@@ -1,9 +1,10 @@
-/**public class Poemscanner()
+/**
+ * public class Poemscanner
 {
-    ArrayList<Poem> = library;
-/** 
-    * Creates an array list library of poems 
-    */
+    ArrayList<Poem> library();
+ 
+     Creates an array list library of poems 
+    
     public Poemscanner() throws IOException
     {
         File pfile1 = new File("poem1.txt");
@@ -15,7 +16,6 @@
         library.add(new Poem(pfile3));
     }
 
-       /**
-     * randomly generates poem, displays author & title
-     *
+       randomly generates poem, displays author & title
+     
 }*/
