@@ -8,14 +8,14 @@ public class Main
     {
 
         Poem poemobj = new Poem();
-        poemobj.Poemscanner();
+        //poemobj.Poemscanner();
         
 
-        System.out.println(poemobj.generatePoem());
+        //System.out.println(poemobj.generatePoem());
         //Poem samplepoem = new Poem(null);
 
         //tells user to press button
-        System.out.println(Poem.message());
+        System.out.println(poemobj.message());
 
         //generates poem
         //Poem(generatePoem());
