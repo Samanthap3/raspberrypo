@@ -35,9 +35,9 @@ public class Poem
     */
     public void Poemscanner() throws IOException
     {
-        File pfile1 = new File("src/poemfiles/poem1.txt");
-        File pfile2 = new File("src/poemfiles/poem2.txt");
-        File pfile3 = new File("src/poemfiles/poem3.txt");
+        File pfile1 = new File("testjava/src/poemfiles/poem1.txt");
+        File pfile2 = new File("testjava/src/poemfiles/poem2.txt");
+        File pfile3 = new File("testjava/src/poemfiles/poem3.txt");
        
         library.add(new Poem(pfile1));
         library.add(new Poem(pfile2));

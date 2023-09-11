@@ -8,7 +8,7 @@ public class Main
     {
 
         Poem poemobj = new Poem();
-        //poemobj.Poemscanner();
+        poemobj.Poemscanner();
         
 
         //System.out.println(poemobj.generatePoem());
@@ -18,7 +18,7 @@ public class Main
         System.out.println(poemobj.message());
 
         //generates poem
-        //Poem(generatePoem());
+        System.out.println(poemobj.generatePoem());
 
         
         //System.out.print(samplepoem.title);

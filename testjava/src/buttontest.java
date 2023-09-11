@@ -20,12 +20,16 @@ public class buttontest {
                 // when you click the button it will now generate the poem
         
                 Poem poemobj = new Poem();
-                poemobj.Poemscanner();
-                 Poem samplepoem = new Poem(null);
-                 System.out.println();
+                try {
+                    poemobj.Poemscanner();
+                } catch (IOException e1) {
+                    // TODO Auto-generated catch block
+                    e1.printStackTrace();
+                }
+                
+                String message = poemobj.generatePoem();
         
-                poemobj.generatePoem();
-                JOptionPane.showMessageDialog(null, "Button Clicked!");
+                JOptionPane.showMessageDialog(null, message);
             }
         });
 
